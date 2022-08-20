@@ -1,0 +1,181 @@
+
+.coluna{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+body{
+    /* background: rgb(12,177,240);
+background: linear-gradient(48deg, rgba(12,177,240,1) 20%, rgba(8,255,161,1) 92%); */
+    background-image: url("https://img.freepik.com/vetores-gratis/estrelas-com-fundo-sunburst_53876-93178.jpg?w=2000");
+    background-position: center;
+    background-size: contain;
+    margin: 10px 0px 0px 0px;
+}
+b{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+p{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: comic sans ms;
+}
+strong{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: #23bddf;
+   
+}
+
+
+main{
+    margin-top: 50px;
+    
+}
+.rifa{
+    background-color: #23bddf;
+    color: white;
+    width: 10vw;
+    border: 1px solid white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;   
+}
+a{
+    text-decoration: none;
+}
+.rifa:hover {
+    box-shadow: 0px 0px 2px 2px #0184a3;
+    background-color: #23bddf;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pix{
+    flex-direction: column;
+}
+.chave-pix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.valor-rifa{
+    display: flex;
+    justify-content: center;
+}
+.topo-informacoes{
+    display: flex;   
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+}
+.titulo1, .titulo2, .titulo3{
+    height: 60px;
+}
+.titulo2{
+    display: flex;
+    justify-content: center;
+}
+.titulo h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 65px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: #03ABA3;
+    text-shadow: 3px 3px #626FB5;
+    
+}
+.mensagem-aviso{
+    display: flex;
+    justify-content: center;
+}
+.imagem-ursinho{
+    
+}
+
+.premio{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.imagem-premio{
+    display: flex;
+    justify-content: center;
+}
+
+.mensagem-ou p{
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    display: flex;
+    align-items: bottom;
+}
+
+.premio-cesta-pix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.legenda_pix{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: #0184a3;
+    color: azure;
+}
+.rodape{
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+    .rifa{
+        width: 20vw;
+    }
+    .imagem-ursinho img{
+        width: 150px;
+    }
+    .titulo h3{
+        font-size: 40px;
+    }
+    .imagem-premio img{
+        width: 200px;
+    }
+    .imagem-cesta img{
+        width: 200px;
+    }
+    .premio-pix img{
+        width: 200px;
+    }
+    .pix{
+        margin-top: 15px;
+    }
+    }
